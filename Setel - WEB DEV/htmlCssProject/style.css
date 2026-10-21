@@ -1,0 +1,263 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.cabecalho {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px; /* topo e lado*/
+    background-color: #f4f4f4;
+}
+
+.cabecalho img {
+    width: 100px;
+    height: auto;
+}
+
+
+.cabecalho ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho a {
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cabecalho a:hover {
+    color: #ff954e;
+}
+
+
+
+.introducao {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+
+.introducao h1 {
+    font-size: 32px;
+    color: #7A2E1D;
+}
+
+
+.introducao p {
+    font-size: 18px;
+    color: #555555;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
+
+.cardapio {
+    padding: 30px;
+    background-color: #FFF8F0;
+    
+}
+
+
+.cardapio h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #7A2E1D;
+    margin-bottom: 30px; /* Cria um espaço abaixo de cada parágrafo */
+}
+
+
+.lista-produtos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+.lista-produtos article {
+    width: 280px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    align-items: stretch; /*se alinham*/
+}
+
+.lista-produtos article img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+.lista-produtos article h3 {
+    font-size: 20px;
+    color: #7A2E1D;
+    margin: 15px 0 10px;
+}
+
+
+.lista-produtos article p {
+    font-size: 15px;
+    color: #555555;
+    line-height: 1.5;
+}
+
+
+.lista-produtos article p strong {
+    color: #222222;
+}
+
+
+.lista-produtos article button {
+    background-color: #7A2E1D;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+
+.lista-produtos article button:hover {
+    background-color: #A3442B;
+}
+
+
+
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    
+}
+
+
+footer h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: white;
+
+}
+
+footer h3 {
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+
+footer p {
+    line-height: 1.5;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer li {
+    margin-bottom: 8px;
+}
+
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #F4B183;
+    text-decoration: underline;
+}
+
+
+footer > p {
+    border-top: 1px solid #444444;
+    padding-top: 15px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+
+/* Introdução */
+.cadastro-introducao {
+    text-align: center;
+    padding: 20px;
+}
+
+.cadastro-introducao h1 {
+    color: #7A2E1D;
+}
+
+/* Formulário */
+.cadastro {
+    max-width: 400px;
+    margin: 20px auto 40px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cadastro h2 {
+    text-align: center;
+    color: #7A2E1D;
+}
+
+/* Campos */
+.cadastro form {
+    display: flex;
+    flex-direction: column;
+}
+
+.cadastro label {
+    margin-bottom: 5px;
+}
+
+.cadastro input:not([type="checkbox"]) {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+/* Opção de promoções */
+.promocoes {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.promocoes label {
+    font-size: 14px;
+}
+
+/* Botão */
+.cadastro button {
+    background-color: #7A2E1D;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cadastro button:hover {
+    background-color: #A3442B;
+}
